@@ -82,13 +82,12 @@
         <h1 class="heading-primary">Arthub</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            Arthub is a web application for beginner artists
+            as a way to share their art
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Site Link</a>
+          <a href="https://arthub-site.surge.sh/" class="btn btn--bg" target="_blank">Site Link</a>
         </div>
       </div>
     </section>
@@ -106,20 +105,32 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                Arthub features a <strong>main</strong> page to view all the latest art
+                posted by others in the form of a carousel,
+                and features parts of the other pages.
+                It also has an <strong>about</strong> page where you can see the developers,
+                and an <strong>explore</strong>  page to view more art other users have posted.
+                You can even search up videos on the <strong>learning</strong>  page
+                so that you do not have to go to external sites
+                to watch videos about art! There is finally the <strong>community</strong>
+                page where users can get feedback on their art and get
+                a sense of community with the other users on Arthub.
+                The <strong>marketplace</strong> was designed as more of a stretch feature
+                and unfortunately was not expanded upon further.
               </p>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                The application has full authentication (log in/register),
+                and the persistence of account information is done
+                using JSON web tokens. All accounts are saved using
+                a PostgreSQL database communicating with Express.js and Node.js
+                on the backend, and React is the
+                frontend. It uses the YouTube API for videos, the
+                Cloudinary API for uploading videos, and a centralized
+                API Client to ensure that excessive external calls are not
+                made. Users are able to upload their art, comment on other's
+                posts, like other posts, delete their own posts, and view
+                the accounts of other users. Figma was used for the wireframes.
+                It took 4 weeks to design, prototype, build, and deploy.
               </p>
             </div>
             <div class="project-details__tools-used">
@@ -133,18 +144,20 @@
                 <div class="skills__skill">Express</div>
                 <div class="skills__skill">Node.js</div>
                 <div class="skills__skill">React</div>
+                <div class="skills__skill">Surge</div>
+                <div class="skills__skill">Heroku</div>
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">Live Site</h3>
               <a
-                href="#"
+                href="https://arthub-site.surge.sh/"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
                 >Site Link</a
               >
               <a
-                href="#"
+                href="https://github.com/PowerStriders/SITE-Capstone"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
