@@ -24,7 +24,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJLGRNHS5K"></script>
     <script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
 		gtag('js', new Date());
 
 		gtag('config', 'G-ZJLGRNHS5K');
@@ -306,7 +310,7 @@
           </span>
         </h2>
         <div class="contact__form-container">
-            <form action="#" name="contact" data-netlify="true" class="contact__form">
+            <form action="#" class="contact__form" data-netlify="true" name="contact">
                 <div class="contact__form-field">
                     <label class="contact__form-label" for="name">Name</label>
                     <input
@@ -402,7 +406,7 @@
         </div>
 
         <div class="main-footer__lower">
-            &copy; 2021,
+            &copy; 2022,
             Brian Balthazar
         </div>
     </div>
